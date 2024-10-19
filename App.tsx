@@ -1,12 +1,11 @@
 import React from 'react';
-import {SafeAreaView, Text} from 'react-native';
-import {MainFile} from './components/mainFile';
+import {SafeAreaView} from 'react-native';
+import {PasswordGenerator} from './components/PasswordGenerator';
 
 function App(): React.JSX.Element {
   return (
     <SafeAreaView>
-      <Text>Hello Pass </Text>
-      <MainFile />
+      <PasswordGenerator />
     </SafeAreaView>
   );
 }
