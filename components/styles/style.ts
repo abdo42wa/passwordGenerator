@@ -46,12 +46,13 @@ export const styles = StyleSheet.create({
     color: '#ff0d10',
   },
   formActions: {
+    marginVertical: 20,
     flexDirection: 'row',
     justifyContent: 'center',
   },
   primaryBtn: {
     width: 120,
-    padding: 10,
+    padding: 16,
     borderRadius: 8,
     marginHorizontal: 8,
     backgroundColor: '#5DA3FA',

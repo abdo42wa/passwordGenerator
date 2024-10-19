@@ -23,7 +23,7 @@ export const ButtonView = ({
         onPress={() => {
           handleSubmit();
         }}>
-        <Text style={styles.primaryBtnTxt}>Generate Password</Text>
+        <Text style={styles.primaryBtnTxt}>Generate </Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.secondaryBtn}

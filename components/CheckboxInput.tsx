@@ -26,6 +26,7 @@ export const CheckboxInput = ({
           isChecked={isChecked}
           onPress={onPress}
           fillColor={fillColor}
+          size={30}
         />
       </View>
     </View>
